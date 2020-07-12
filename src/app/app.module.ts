@@ -15,7 +15,8 @@ import { CategoriesComponent } from './components/categories/categories.componen
     BlogComponent,
     UsersComponent,
     PostsComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    
   ],
   imports: [
     BrowserModule,
