@@ -1,3 +1,4 @@
+import { DetailsComponent } from './components/details/details.component';
 import { LoginTry1Component } from './components/login-try1/login-try1.component';
 import { UsersComponent } from './components/users/users.component';
 import { CategoriesComponent } from './components/categories/categories.component';
@@ -13,6 +14,8 @@ const routes: Routes = [
   {path: 'posts', component: PostsComponent},
   {path: 'categories', component: CategoriesComponent},
   {path: 'users', component: UsersComponent},
+  {path: 'details', component: DetailsComponent},
+
 
 ];
 

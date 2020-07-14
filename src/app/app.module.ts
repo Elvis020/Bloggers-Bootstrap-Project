@@ -8,6 +8,7 @@ import { UsersComponent } from './components/users/users.component';
 import { CKEditorModule } from 'ckeditor4-angular';
 import { PostsComponent } from './components/posts/posts.component';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { DetailsComponent } from './components/details/details.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CategoriesComponent } from './components/categories/categories.componen
     UsersComponent,
     PostsComponent,
     CategoriesComponent,
+    DetailsComponent,
     
   ],
   imports: [
